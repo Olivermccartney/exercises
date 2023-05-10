@@ -1,10 +1,11 @@
+/* Reset selector */
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
-
+/* custom property */
 :root {
 	--global-color-1: #800000;
 }
@@ -32,12 +33,12 @@ a:hover {
 	font-style: italic;
 }
 
-
+/* the styles for the header */
 header {
 	border-bottom: 3px solid #931420;
 	padding-top: 1.5em;
 	padding-bottom: 2em;
-	background: linear-gradient(30deg, #c46d04, #b97118, #e6ccac, #ad7f47, #da7b07);
+	background: linear-gradient(30deg, #ff8e59 0%, #ffffff 100%); 
 }
 
 header h2 {
@@ -59,22 +60,16 @@ header img {
 	text-shadow: 2px 2px 2px var(--global-color-1);
 }
 
-
+/* the styles for the main content */
 main {
 	clear: left;
-	padding: 0 30px;
+	padding: 0 30px; 
 }
 
 main h1 {
 	padding: .3em 0;
-	Width: 500px;
-	border: 3px double #931420;
-	color: #000000;
-	font-size: 125%;
-	text-align: center;
-	font-weight: bold;
-	border-radius: 10px 10px 10px 10px;
-	box-shadow: 3px 3px 4px 4px #000000;
+	border-top: 3px solid #931420;
+	border-bottom: 3px solid #931420;
 }
 
 main h2 {
@@ -100,7 +95,7 @@ main p {
 main blockquote {
 	padding: 0 2em;
 	font-style: italic;
-	font-style: italic;
+	font-style: italic; 
 }
 
 main ul {
@@ -111,7 +106,7 @@ main li {
 	padding-bottom: .35em;
 }
 
-
+/* the styles for the footer */
 footer {
 	background-color: #931420;
 }
