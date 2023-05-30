@@ -1,4 +1,10 @@
 	/* the styles for the elements */
+	@font-face {
+		font-family: 'GIGI';
+		src: url('GIGI.TTF') format('truetype');
+		/* Replace 'your-font-file.ttf' with the actual filename of your font */
+	}
+
 	* {
 		margin: 0;
 		padding: 0;
@@ -33,6 +39,7 @@
 	}
 
 	header h2 {
+		font-family: 'GIGI', Arial, Helvetica, sans-serif;
 		font-size: 175%;
 		color: #800000;
 	}
